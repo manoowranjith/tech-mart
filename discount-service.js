@@ -7,6 +7,7 @@ let discountCodes = [
   { code: 'FLAT20', discount: 20, type: 'fixed', active: true }
 ];
 
+let Password = "Test123";
 // Admin credentials
 const ADMIN_PASSWORD = Password;
 if (!ADMIN_PASSWORD) {
