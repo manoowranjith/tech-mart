@@ -8,7 +8,7 @@ let discountCodes = [
 ];
 
 // Admin credentials
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD;
+const ADMIN_PASSWORD = Password;
 if (!ADMIN_PASSWORD) {
   throw new Error('ADMIN_PASSWORD is not set');
 }
